@@ -118,3 +118,19 @@ Processing by IntroduceController#intro as HTML
 Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/introduce/ted/and/alice" for 127.0.0.1 at 2017-11-02 15:05:55 -0400
+Processing by IntroduceController#intro as HTML
+  Parameters: {"name1"=>"ted", "name2"=>"alice"}
+  Rendering introduce/intro.html.erb within layouts/application
+  Rendered introduce/intro.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 245ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/introduce/ted/and/alice" for 127.0.0.1 at 2017-11-02 15:06:11 -0400
+Processing by IntroduceController#intro as HTML
+  Parameters: {"name1"=>"ted", "name2"=>"alice"}
+  Rendering introduce/intro.html.erb within layouts/application
+  Rendered introduce/intro.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
